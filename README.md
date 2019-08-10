@@ -12,6 +12,6 @@ Aqui um expemplo de subtitulo com lista
 
 ### Codigo
 
-  python
-  from flask import flask
+```python
+   from flask import flask
 
