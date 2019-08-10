@@ -10,6 +10,7 @@ def index():
 
 @app.route('/save', methods = ['POST'])
 def save():
+        #Comentario qualquer
 	dados = request.get_json()
 	with open('cache.dat', 'w') as f:
 		f.write(json.dumps(dados))
