@@ -5,6 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
+	variavel = 'Minha Variavel'
 	return render_template('index.html')
 
 @app.route('/save', methods = ['POST'])
